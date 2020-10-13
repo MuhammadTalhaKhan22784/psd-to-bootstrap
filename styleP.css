@@ -639,7 +639,7 @@ footer {
         margin-top: 43px;
         margin-left: 10px;
     }
-    .nav-item h1{
+    .nav-item h1 {
         margin: 0 35px !important;
         font-size: 14px !important;
     }
@@ -751,7 +751,7 @@ footer {
         line-height: 1;
         margin-bottom: 25px;
     }
-    .nav-item h1{
+    .nav-item h1 {
         margin: 0 320px !important;
         font-size: 14px !important;
     }
@@ -853,7 +853,7 @@ footer {
         color: rgba(0, 0, 0, .5);
         margin: 0 13px;
     }
-    .nav-item h1{
+    .nav-item h1 {
         margin: 0 170px !important;
         font-size: 7px !important;
     }
@@ -1066,8 +1066,8 @@ footer {
         font-size: 9px;
     } */
     .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.5);
-        border-color: rgba(0,0,0,.1);
+        color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
         padding-left: 0px;
     }
     .topbar-2 {
@@ -1079,7 +1079,7 @@ footer {
     .user-profile {
         display: flex;
     }
-    .nav-item h1{
+    .nav-item h1 {
         margin: 0 130px !important;
         font-size: 8px !important;
     }
@@ -1399,7 +1399,7 @@ footer {
         font-size: 10px;
     }
 }
- 
+
 @media (max-width: 344px) {
     .pd-box2-date {
         padding-left: 120px;
@@ -1411,7 +1411,7 @@ footer {
     }
 }
 
- @media (max-width: 320px) { 
+@media (max-width: 320px) {
     .nav-link {
         color: rgba(0, 0, 0, .5);
         margin: 0 2px !important;
@@ -1441,7 +1441,7 @@ footer {
         font-size: 13px;
         margin-left: 7px !important;
     }
-} 
+}
 
 @media (max-width: 332px) {
     .pd-contact-items {
