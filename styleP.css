@@ -1411,11 +1411,18 @@ footer {
     }
 }
 
-@media (max-width: 320px) {
+ @media (max-width: 320px) { 
     .nav-link {
         color: rgba(0, 0, 0, .5);
         margin: 0 2px !important;
     }
+    .nav-item h1 {
+        margin: 0 117px !important;
+        font-size: 8px !important;
+    }
+    /* .topbar-4-pd{
+        padding:0 10px
+    } */
     .bar-chart-icon {
         margin-right: 1px !important;
         width: 19px;
@@ -1434,7 +1441,7 @@ footer {
         font-size: 13px;
         margin-left: 7px !important;
     }
-}
+} 
 
 @media (max-width: 332px) {
     .pd-contact-items {
