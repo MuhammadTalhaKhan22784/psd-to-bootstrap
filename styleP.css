@@ -180,7 +180,7 @@
 
 .prd-details-heading h1 {
     color: #415364;
-    font-size: 49px;
+    font-size: 46px;
     font-weight: bold;
     line-height: 0.6;
     margin-bottom: 70px;
@@ -1057,6 +1057,19 @@ footer {
 }
 
 @media (max-width: 360px) {
+    .top {
+        height: 50px;
+    }
+    /* .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 2px;
+        font-size: 9px;
+    } */
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        padding-left: 0px;
+    }
     .topbar-2 {
         font-size: 9px;
     }
@@ -1386,7 +1399,7 @@ footer {
         font-size: 10px;
     }
 }
-
+ 
 @media (max-width: 344px) {
     .pd-box2-date {
         padding-left: 120px;
