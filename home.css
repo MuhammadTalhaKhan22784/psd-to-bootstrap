@@ -1195,11 +1195,27 @@ footer {
     }
     .become-exporter {
         width: 100%;
-        height: 720px;
+        height: 440px;
+    }
+    .export-btn {
+        padding: 11px 10px;
+        width: 276px;
+
+    }
+    .import-btn {
+        padding: 11px 10px;
+        width: 276px;
+
+    }
+    .become-export-items{
+        margin-top: 326px;
     }
     .become-importer {
         width: 100%;
-        height: 720px;
+        height: 440px;
+    }
+    .become-import-items{
+        margin-top: 326px;
     }
     .footer-main {
         display: flex;
