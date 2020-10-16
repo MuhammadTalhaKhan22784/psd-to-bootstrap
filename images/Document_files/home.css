@@ -10,25 +10,21 @@
     height: 60px;
 }
 
-.dropdown-menu {
-    position: absolute !important;
-}
-
 .navbar-toggler-icon {
     display: inline-block;
     width: 28px !important;
     height: 24px !important;
     margin-left: 0;
 }
-
-.navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, .5);
-    border: 3px solid;
+.navbar-light .navbar-toggler{
+    color: rgba(0,0,0,.5);
+    border: 3px solid ;
     background-color: white;
     height: 38px;
     padding: 0 6px;
     border-color: white;
 }
+
 
 .topbar-2 {
     display: flex;
@@ -48,7 +44,6 @@
 .nav-item h1 {
     padding: 10px 50px !important;
     font-size: 14px !important;
-    cursor: pointer;
 }
 
 .navbar-toggler-icon {
@@ -798,9 +793,6 @@ footer {
 }
 
 @media (max-width: 576px) {
-    .dropdown-menu {
-        position: absolute !important;
-    }
     .tobar-2-nav {
         flex-direction: row;
     }
@@ -848,20 +840,6 @@ footer {
     }
     .topbar-4-pd h1 {
         font-size: 10px;
-    }
-    .carousel-caption {
-        top: 87px;
-        right: 64%;
-    }
-    .carousel-caption h5 {
-        font-size: 25px;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
-    .carousel-caption p {
-        font-size: 16px;
-        letter-spacing: 1px;
-        padding-left: 0px !important;
     }
     /* .bar-chart-icon {
         margin-left: 0px;
@@ -977,30 +955,30 @@ footer {
     /* .navbar-toggler {
         font-size: 14px;
     } */
-    .dropdown-menu {
-        position: absolute !important;
-    }
-    .navbar-light .navbar-nav .nav-link {
+    /* .navbar-light .navbar-nav .nav-link {
         color: rgba(0, 0, 0, .5);
-        margin: 0 3px;
-        font-size: 5px;
-    }
-    .navbar-light .navbar-toggler {
-        height: 30px;
-        padding: 0px;
-    }
+        margin: 0 2px;
+        font-size: 9px;
+    } */
+    /* .nav-account-link .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 9px;
+        font-size: 9px;
+    } */
+    /* .nav-account-link {
+        display: flex;
+        margin-left: 77px;
+        font-size: 9px;
+    } */
     .nav-item h1 {
         margin: 0 50px !important;
         font-size: 8px !important;
     }
     .bar-chart-icon {
-        width: 12px;
-        height: 6px;
-        margin-top: 5px;
-        margin-right: 4px !important;
-    }
-    .section-topbar-3 {
-        margin-left: 66px;
+        width: 15px;
+        height: 10px;
+        margin-top: 10px;
+        margin-right: 8px !important;
     }
     .search-input {
         width: 164px !important;
@@ -1012,6 +990,9 @@ footer {
         height: 33px;
         width: 88px;
         margin-left: 10px;
+    }
+    .section-topbar-3 {
+        margin-left: 80px;
     }
     .topbar-4-pd {
         padding: 0px 10px;
@@ -1026,34 +1007,6 @@ footer {
         margin-left: 0px;
         margin-right: 15px;
     }
-    .carousel-caption {
-        position: absolute;
-        top: 50px;
-        right: 57%;
-        line-height: 4px;
-        bottom: 20px;
-        left: 8%;
-        z-index: 10;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-    }
-    .carousel-caption h5 {
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
-    .carousel-caption p {
-        font-size: 12px;
-        letter-spacing: 1px;
-        padding-left: 0px !important;
-    }
-    .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-    }
     .muubi-info-heading {
         font-size: 30px;
     }
@@ -1062,9 +1015,6 @@ footer {
     }
     .musubi-info-img.mobile {
         display: block;
-    }
-    .explorer-heading {
-        font-size: 34px;
     }
     .industries-div-1 {
         display: flex;
@@ -1075,20 +1025,14 @@ footer {
         width: 100%;
     }
     .agrifood-img img {
-        width: 165px;
-    }
-    .agrifood-txt strong {
-        font-size: 20px;
+        width: 250px;
     }
     .automotive {
         width: 100%;
         margin-top: 30px;
     }
-    .automative-txt strong {
-        font-size: 20px;
-    }
     .automative-img img {
-        width: 160px;
+        width: 200px;
     }
     .textile-div {
         width: 45%;
@@ -1096,10 +1040,7 @@ footer {
         flex-direction: column;
     }
     .textile-img img {
-        width: 130px;
-    }
-    .textile-txt h6 {
-        font-size: 24px;
+        width: 140px;
     }
     .chemical-div {
         width: 45%;
@@ -1107,10 +1048,9 @@ footer {
         flex-direction: column;
     }
     .chemical-img img {
-        width: 110px;
+        width: 115px;
     }
     .chemical-txt h6 {
-        font-size: 24px;
         line-height: 53px;
     }
     .mechanic-div {
@@ -1121,64 +1061,31 @@ footer {
         margin-top: 30px;
     }
     .mechanic-img img {
-        width: 110px;
-    }
-    .mechanic-txt h6 {
-        font-size: 24px;
+        width: 113px;
     }
     .musubi-cards .container {
         justify-content: center;
-    }
-    .card {
-        width: 16rem !important;
-        margin-top: 10px;
-        margin-bottom: 55px;
-        margin-left: 1%;
-        margin-right: 1%;
-        height: 478px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 20px rgba(38, 36, 131, 0.25);
-        border-radius: 8px;
-    }
-    .card-text {
-        font-size: 16px;
     }
     .import-export-data {
         flex-direction: column;
     }
     .import-div {
         width: 100%;
-        height: 650px;
     }
     .import-li {
-        font-size: 16px;
+        font-size: 20px;
     }
     .import-ul li::before {
         font-size: 21px;
     }
     .export-div {
         width: 100%;
-        height: 650px;
     }
     .export-li {
-        font-size: 16px;
+        font-size: 20px;
     }
     .export-ul li::before {
         font-size: 21px;
-    }
-    .team-card {
-        margin-top: 84px;
-        align-items: center;
-    }
-    .team-card .card-img-top {
-        height: 205px;
-        width: 205px;
-    }
-    .team-card-title {
-        font-size: 20px;
-    }
-    .card-img-right {
-        right: 42px;
     }
     .import-export-blog {
         flex-direction: column;
@@ -1206,245 +1113,17 @@ footer {
 @media (max-width: 344px) {
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0, 0, 0, .5);
-        margin: 0 2px;
-        font-size: 5px;
-    }
-    .dropdown-menu{
-        position: absolute !important;
-    }
-    .navbar-light .navbar-toggler {
-        height: 30px;
-        padding: 0px;
+        font-size: 10px;
     }
     .nav-item h1 {
         margin: 0 45px !important;
         font-size: 7px !important;
     }
     .bar-chart-icon {
-        width: 13px;
-        height: 6px;
-        margin-top: 3px;
-        margin-left: 4px;
-    }
-    .section-topbar-3 {
-        margin-left: 49px;
-    }
-    .search-input {
-        width: 164px !important;
-        height: 33px !important;
-        font-size: 10px;
-    }
-    .search-btn {
-        padding: 5px 19px !important;
-        height: 33px;
-        width: 88px;
-        margin-left: 10px;
-    }
-    .topbar-4-pd {
-        padding: 0px 10px;
-        height: max-content;
-        text-align: center;
-        margin-top: -10px;
-    }
-    .topbar-4-pd h1 {
-        text-align: center;
-    }
-    .bar-chart-icon {
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-    .carousel-caption {
-        position: absolute;
-        top: 50px;
-        right: 57%;
-        line-height: 4px;
-        bottom: 20px;
-        left: 8%;
-        z-index: 10;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-    }
-    .carousel-caption h5 {
-        font-size: 14px;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
-    .carousel-caption p {
-        font-size: 11px;
-        letter-spacing: 1px;
-        padding-left: 0px !important;
-    }
-    .carousel-indicators li {
-        width: 10px;
+        width: 15px;
         height: 10px;
-        border-radius: 50%;
-    }
-    .muubi-info-heading {
-        font-size: 27px;
-    }
-    .musubi-info-img.desktop {
-        display: none;
-    }
-    .musubi-info-img.mobile {
-        display: block;
-    }
-    .explorer-heading {
-        font-size: 27px;
-    }
-
-    .industries-div-1 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin-top: 24px;
-    }
-    .agrifood {
-        width: 100%;
-    }
-    .agrifood-img img {
-        width: 165px;
-    }
-    .agrifood-txt strong {
-        font-size: 20px;
-    }
-    .automotive {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .automative-txt strong {
-        font-size: 20px;
-    }
-    .automative-img img {
-        width: 160px;
-    }
-    .textile-div {
-        width: 45%;
-        height: 170px;
-        flex-direction: column;
-    }
-    .textile-img img {
-        width: 130px;
-    }
-    .textile-txt h6 {
-        font-size: 24px;
-    }
-    .chemical-div {
-        width: 45%;
-        height: 170px;
-        flex-direction: column;
-    }
-    .chemical-img img {
-        width: 110px;
-    }
-    .chemical-txt h6 {
-        font-size: 24px;
-        line-height: 53px;
-    }
-    .mechanic-div {
-        width: 45%;
-        height: 170px;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-    }
-    .mechanic-img img {
-        width: 110px;
-    }
-    .mechanic-txt h6 {
-        font-size: 24px;
-    }
-    .musubi-card-heading{
-        font-size: 27px;
-        margin-bottom: 30px;
-    }
-    .musubi-cards .container {
-        justify-content: center;
-    }
-    .card {
-        width: 16rem !important;
-        margin-top: 10px;
-        margin-bottom: 55px;
-        margin-left: 1%;
-        margin-right: 1%;
-        height: 478px;
-        background: #FFFFFF;
-        box-shadow: 0px 2px 20px rgba(38, 36, 131, 0.25);
-        border-radius: 8px;
-    }
-    .card-text {
-        font-size: 16px;
-    }
-    .import-export-data {
-        flex-direction: column;
-    }
-    .import-div {
-        width: 100%;
-        height: 650px;
-    }
-    .import-li {
-        font-size: 16px;
-    }
-    .import-ul li::before {
-        font-size: 21px;
-    }
-    .export-div {
-        width: 100%;
-        height: 650px;
-    }
-    .export-li {
-        font-size: 16px;
-    }
-    .export-ul li::before {
-        font-size: 21px;
-    }
-    .team-card {
-        margin-top: 84px;
-        align-items: center;
-    }
-    .team-card .card-img-top {
-        height: 205px;
-        width: 205px;
-    }
-    .team-card-title {
-        font-size: 20px;
-    }
-    .card-img-right {
-        right: 42px;
-    }
-    .import-export-blog {
-        flex-direction: column;
-    }
-    .become-exporter {
-        width: 100%;
-    }
-    .become-export-items{
-        margin-right: 2px;
-    }
-    .export-btn{
-        width: 278px;
-    }
-    .become-importer {
-        width: 100%;
-    }
-    .become-import-items{
-        margin-right: 2px;
-    }
-    .import-btn{
-        width: 278px;
-    }
-    .footer-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .footer-details {
-        margin-bottom: 20px;
-    }
-    .ft-txt {
-        margin-bottom: 20px;
+        margin-top: 1px;
+        margin-left: 8px;
     }
 }
 
