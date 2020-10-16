@@ -952,9 +952,19 @@ footer {
     }
     .become-exporter {
         width: 100%;
+        height: 720px;
+    }
+    .become-export-items {
+        margin-bottom: 62px;
+        margin-right: 0px;
     }
     .become-importer {
         width: 100%;
+        height: 720px;
+    }
+    .become-import-items {
+        margin-bottom: 62px;
+        margin-right: 0px;
     }
     .footer-main {
         display: flex;
@@ -1185,9 +1195,11 @@ footer {
     }
     .become-exporter {
         width: 100%;
+        height: 720px;
     }
     .become-importer {
         width: 100%;
+        height: 720px;
     }
     .footer-main {
         display: flex;
@@ -1209,7 +1221,7 @@ footer {
         margin: 0 2px;
         font-size: 5px;
     }
-    .dropdown-menu{
+    .dropdown-menu {
         position: absolute !important;
     }
     .navbar-light .navbar-toggler {
@@ -1293,7 +1305,6 @@ footer {
     .explorer-heading {
         font-size: 27px;
     }
-
     .industries-div-1 {
         display: flex;
         flex-wrap: wrap;
@@ -1355,7 +1366,7 @@ footer {
     .mechanic-txt h6 {
         font-size: 24px;
     }
-    .musubi-card-heading{
+    .musubi-card-heading {
         font-size: 27px;
         margin-bottom: 30px;
     }
@@ -1418,20 +1429,22 @@ footer {
     }
     .become-exporter {
         width: 100%;
+        height: 720px;
     }
-    .become-export-items{
+    .become-export-items {
         margin-right: 2px;
     }
-    .export-btn{
+    .export-btn {
         width: 278px;
     }
     .become-importer {
         width: 100%;
+        height: 720px;
     }
-    .become-import-items{
+    .become-import-items {
         margin-right: 2px;
     }
-    .import-btn{
+    .import-btn {
         width: 278px;
     }
     .footer-main {
