@@ -163,6 +163,12 @@
     padding-left: 25px !important;
 }
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
 .musubi-info {
     margin-top: 20px;
 }
@@ -748,11 +754,12 @@ footer {
 @media (max-width: 1024px) {
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0, 0, 0, .5);
-        margin: 0 18px;
+        margin: 0 4px;
+        font-size: 11px;
     }
     .nav-item h1 {
-        margin: 0 29px !important;
-        font-size: 15px !important;
+        margin: 0 -6px !important;
+        font-size: 14px !important;
     }
     .tobar-2-nav {
         flex-direction: row;
@@ -771,22 +778,73 @@ footer {
         margin: 0;
         margin-left: 66px;
     }
+    .bar-chart-icon {
+        width: 20px;
+        height: 20px;
+        padding-left: 2.2px !important;
+        margin-top: -2px;
+        margin-left: 8px;
+        margin-right: -5px;
+    }
+    .agrifood-img img {
+        width: 261px;
+        object-fit: contain;
+    }
+    .explorer-heading {
+        margin-bottom: 30px;
+    }
+    .musubi-card-heading {
+        margin-bottom: 30px;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 165px;
+        right: 58%;
+        bottom: 20px;
+        left: 9%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
 }
 
 @media (max-width: 992px) {
-    .exporter-heading {
-        padding-left: 60px;
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 4px;
+        font-size: 11px;
     }
     .nav-item h1 {
-        margin: 0 29px !important;
-        font-size: 15px !important;
+        margin: 0 -6px !important;
+        font-size: 14px !important;
+    }
+    .bar-chart-icon {
+        width: 20px;
+        height: 20px;
+        padding-left: 2.2px !important;
+        margin-top: -2px;
+        margin-left: 8px;
+        margin-right: -5px;
+    }
+    .agrifood-img img {
+        width: 261px;
+        object-fit: contain;
+    }
+    .explorer-heading {
+        margin-bottom: 30px;
+    }
+    .musubi-card-heading {
+        margin-bottom: 30px;
     }
 }
 
 @media (max-width: 768px) {
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0, 0, 0, .5);
-        margin: 0 13px;
+        margin: 0 3px;
+        font-size: 8px;
     }
     .nav-item h1 {
         margin: 0 250px !important;
@@ -794,6 +852,144 @@ footer {
     }
     .exporter-heading {
         font-size: 2rem;
+    }
+    .bar-chart-icon {
+        width: 18px;
+        height: 11px;
+        padding-left: 2.2px !important;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .carousel-caption {
+        top: 120px;
+        right: 67%;
+    }
+    .carousel-caption h5 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .carousel-caption p {
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-left: 0px !important;
+    }
+    .muubi-info-heading {
+        font-size: 30px;
+    }
+    .musubi-info-img.desktop {
+        display: none;
+    }
+    .musubi-info-img.mobile {
+        display: block;
+    }
+    .industries-div-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .agrifood {
+        width: 100%;
+    }
+    .agrifood-img img {
+        width: 250px;
+    }
+    .automotive {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .automative-img img {
+        width: 200px;
+    }
+    .textile-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .textile-img img {
+        width: 140px;
+    }
+    .chemical-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .chemical-img img {
+        width: 115px;
+    }
+    .chemical-txt h6 {
+        line-height: 53px;
+    }
+    .mechanic-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .mechanic-img img {
+        width: 113px;
+    }
+    .musubi-cards .container {
+        justify-content: center;
+    }
+    .import-export-data {
+        flex-direction: column;
+    }
+    .import-div {
+        width: 100%;
+    }
+    .import-li {
+        font-size: 20px;
+    }
+    .import-ul li::before {
+        font-size: 21px;
+    }
+    .export-div {
+        width: 100%;
+    }
+    .export-li {
+        font-size: 20px;
+    }
+    .export-ul li::before {
+        font-size: 21px;
+    }
+    .import-export-blog {
+        flex-direction: column;
+    }
+    .team-card {
+        border: none !important;
+        box-shadow: none !important;
+        position: relative;
+        margin-bottom: 116px;
+    }
+    .become-exporter {
+        width: 100%;
+        height: 720px;
+    }
+    .become-export-items {
+        margin-bottom: 62px;
+        margin-right: 0px;
+    }
+    .become-importer {
+        width: 100%;
+        height: 720px;
+    }
+    .become-import-items {
+        margin-bottom: 62px;
+        margin-right: 0px;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-details {
+        margin-bottom: 20px;
+    }
+    .ft-txt {
+        margin-bottom: 20px;
     }
 }
 
@@ -980,6 +1176,285 @@ footer {
     }
 }
 
+@media (max-width:425px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 2px;
+        font-size: 7px;
+    }
+    .nav-item h1 {
+        margin: 0 126px !important;
+    }
+    .topbar-4-pd {
+        padding: 0px 0px 0px 0px;
+        height: max-content;
+    }
+    .topbar-4-pd h1 {
+        font-size: 10px;
+    }
+    .navbar-light .navbar-toggler {
+        height: 30px;
+        padding: 0px;
+    }
+    .bar-chart-icon {
+        margin-right: 1px !important;
+        width: 18px;
+        height: 10px;
+        margin-left: 1px;
+        margin-right: 0px;
+        margin-top: 7px;
+    }
+    .section-topbar-3 {
+        margin-left: 138px;
+    }
+    .search-input {
+        width: 162px !important;
+        height: 33px !important;
+        font-size: 9px;
+        margin-right: 6px;
+    }
+    .search-btn {
+        padding: 5px 19px !important;
+        height: 34px;
+        width: 81px;
+    }
+    .carousel-caption {
+        top: 69px;
+        right: 60%;
+    }
+    .carousel-caption h5 {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 6px;
+    }
+    .carousel-caption p {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-left: 0px !important;
+    }
+    .muubi-info-heading {
+        font-size: 30px;
+    }
+    .musubi-info-img.desktop {
+        display: none;
+    }
+    .musubi-info-img.mobile {
+        display: block;
+    }
+    .explorer-heading {
+        font-size: 34px;
+    }
+    .industries-div-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .agrifood {
+        width: 100%;
+    }
+    .agrifood-img img {
+        width: 180px;
+    }
+    .agrifood-txt strong {
+        font-size: 20px;
+    }
+    .automotive {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .automative-txt strong {
+        font-size: 20px;
+    }
+    .automative-img img {
+        width: 160px;
+    }
+    .textile-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .textile-img img {
+        width: 130px;
+    }
+    .textile-txt h6 {
+        font-size: 24px;
+    }
+    .chemical-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .chemical-img img {
+        width: 110px;
+    }
+    .chemical-txt h6 {
+        font-size: 24px;
+        line-height: 53px;
+    }
+    .mechanic-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .mechanic-img img {
+        width: 110px;
+    }
+    .mechanic-txt h6 {
+        font-size: 24px;
+    }
+    .musubi-cards .container {
+        justify-content: center;
+    }
+    .card {
+        width: 16rem !important;
+        margin-top: 10px;
+        margin-bottom: 55px;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 478px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(38, 36, 131, 0.25);
+        border-radius: 8px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .import-export-data {
+        flex-direction: column;
+    }
+    .import-div {
+        width: 100%;
+        height: 650px;
+    }
+    .import-li {
+        font-size: 16px;
+    }
+    .import-ul li::before {
+        font-size: 21px;
+    }
+    .export-div {
+        width: 100%;
+        height: 650px;
+    }
+    .export-li {
+        font-size: 16px;
+    }
+    .export-ul li::before {
+        font-size: 21px;
+    }
+    .team-card {
+        margin-top: 84px;
+        align-items: center;
+    }
+    .team-card .card-img-top {
+        height: 205px;
+        width: 205px;
+    }
+    .team-card-title {
+        font-size: 20px;
+    }
+    .card-img-right {
+        right: 42px;
+    }
+    .import-export-blog {
+        flex-direction: column;
+    }
+    .become-exporter {
+        width: 100%;
+        height: 440px;
+    }
+    .export-btn {
+        padding: 11px 10px;
+        width: 276px;
+    }
+    .import-btn {
+        padding: 11px 10px;
+        width: 276px;
+    }
+    .become-export-items {
+        margin-top: 326px;
+    }
+    .become-importer {
+        width: 100%;
+        height: 440px;
+    }
+    .become-import-items {
+        margin-top: 326px;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-details {
+        margin-bottom: 20px;
+    }
+    .ft-txt {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .top {
+        height: 50px;
+    }
+    /* .navbar-toggler {
+        font-size: 14px;
+    } */
+    .dropdown-menu {
+        position: absolute !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 3px;
+        font-size: 5px;
+    }
+    .navbar-light .navbar-toggler {
+        height: 30px;
+        padding: 0px;
+    }
+    .nav-item h1 {
+        margin: 0 85px !important;
+        font-size: 8px !important;
+    }
+    .bar-chart-icon {
+        width: 12px;
+        height: 6px;
+        margin-top: 5px;
+        margin-right: 4px !important;
+    }
+    .section-topbar-3 {
+        margin-left: 92px;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 61px;
+        right: 57%;
+        line-height: 8px;
+        bottom: 20px;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .carousel-caption h5 {
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding-left: 0px !important;
+    }
+}
+
 @media (max-width: 360px) {
     .top {
         height: 50px;
@@ -1010,7 +1485,7 @@ footer {
         margin-right: 4px !important;
     }
     .section-topbar-3 {
-        margin-left: 66px;
+        margin-left: 57px;
     }
     .search-input {
         width: 164px !important;
@@ -1200,21 +1675,19 @@ footer {
     .export-btn {
         padding: 11px 10px;
         width: 276px;
-
     }
     .import-btn {
         padding: 11px 10px;
         width: 276px;
-
     }
-    .become-export-items{
+    .become-export-items {
         margin-top: 326px;
     }
     .become-importer {
         width: 100%;
         height: 440px;
     }
-    .become-import-items{
+    .become-import-items {
         margin-top: 326px;
     }
     .footer-main {
@@ -1445,7 +1918,7 @@ footer {
     }
     .become-exporter {
         width: 100%;
-        height: 720px;
+        height: 440px;
     }
     .become-export-items {
         margin-right: 2px;
@@ -1455,7 +1928,7 @@ footer {
     }
     .become-importer {
         width: 100%;
-        height: 720px;
+        height: 440px;
     }
     .become-import-items {
         margin-right: 2px;
@@ -1482,11 +1955,27 @@ footer {
         height: 50px;
     }
     .navbar-toggler {
-        font-size: 14px;
+        font-size: 10px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 22px !important;
+        height: 21px !important;
+    }
+    .navbar-light .navbar-toggler {
+        height: 25px;
+        padding: 0px;
     }
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0, 0, 0, .5);
-        font-size: 9px;
+        margin: 0 1px;
+        font-size: 5px;
+    }
+    .dropdown-menu {
+        position: absolute !important;
+    }
+    .section-topbar-3 {
+        margin-left: 32px;
     }
     .nav-item h1 {
         margin: 0 50px !important;
@@ -1494,10 +1983,11 @@ footer {
     }
     .bar-chart-icon {
         width: 16px;
-        height: 12px;
+        height: 9px;
         padding-left: 2.2px !important;
-        margin-top: 8px;
-        margin-left: 10px;
+        margin-top: 2px;
+        margin-left: 0px;
+        margin-right: 15px;
     }
     .search-input {
         width: 164px !important;
@@ -1521,110 +2011,422 @@ footer {
     .topbar-4-pd h1 {
         text-align: center;
     }
-    .exporter-logo {
-        width: 50px;
-        height: 50px;
+    .carousel-caption {
+        position: absolute;
+        top: 50px;
+        right: 57%;
+        line-height: 4px;
+        bottom: 20px;
+        left: 8%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
     }
-    .exporter-heading {
-        margin-top: -30px;
-        font-size: 0.6rem;
-        padding-left: 60px;
+    .carousel-caption h5 {
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
     }
-    .exporter-para {
-        padding-left: 3.0rem;
-        width: 70%;
-        text-align: justify;
-        text-justify: inter-word;
-        /* flex-direction: column; */
-    }
-    .exporter-para-2 {
-        padding-left: 3.3rem;
-        font-size: 10px;
-        width: 70%;
-        flex-direction: column;
-        text-align: justify;
-    }
-    .export-2-para {
-        padding-left: 0px;
-        width: 90px;
-    }
-    .exporter-para p {
-        font-size: 10px;
-    }
-    .arrow {
-        width: 20px;
-        height: 16px;
-        margin-left: 1px;
-    }
-    .stars-icons {
-        padding-left: 3.3rem;
-        font-size: 1.2rem !important;
-    }
-    .fa-star {
-        color: #FFB84E;
-        font-size: 0.6rem;
-    }
-    .star-num {
-        font-size: 10px;
-    }
-    .exporter-para-2 button {
-        border-radius: 50px;
-        height: 43px;
-        width: 112px;
+    .carousel-caption p {
         font-size: 11px;
+        letter-spacing: 1px;
+        padding-left: 0px !important;
     }
-    .section-2 {
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .muubi-info-heading {
+        font-size: 27px;
+    }
+    .musubi-info-img.desktop {
+        display: none;
+    }
+    .musubi-info-img.mobile {
+        display: block;
+    }
+    .explorer-heading {
+        font-size: 27px;
+    }
+    .industries-div-1 {
+        display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .agrifood {
         width: 100%;
     }
-    .img-box-2 {
-        margin-left: 20px;
+    .agrifood-img img {
+        width: 156px;
     }
-    .img-box-1 span {
-        font-size: 14px;
+    .agrifood-txt strong {
+        font-size: 20px;
     }
-    .img-box-2 span {
-        font-size: 14px;
+    .automotive {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .automative-txt strong {
+        font-size: 20px;
+    }
+    .automative-img img {
+        width: 131px;
+    }
+    .textile-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .textile-img img {
+        width: 130px;
+    }
+    .textile-txt h6 {
+        font-size: 20px;
+    }
+    .chemical-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .chemical-img img {
+        width: 110px;
+    }
+    .chemical-txt h6 {
+        font-size: 20px;
+        line-height: 53px;
+    }
+    .mechanic-div {
+        width: 45%;
+        height: 170px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .mechanic-img img {
+        width: 110px;
+    }
+    .mechanic-txt h6 {
+        font-size: 20px;
+    }
+    .musubi-card-heading {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .musubi-cards .container {
         justify-content: center;
     }
-    .images-section {
+    .card {
+        width: 16rem !important;
+        margin-top: 10px;
+        margin-bottom: 55px;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 478px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(38, 36, 131, 0.25);
+        border-radius: 8px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .import-export-data {
+        flex-direction: column;
+    }
+    .import-div {
         width: 100%;
-        margin-left: -22px;
-        margin-top: -8px;
+        height: 650px;
+    }
+    .import-li {
+        font-size: 16px;
+    }
+    .import-ul li::before {
+        font-size: 21px;
+    }
+    .export-div {
+        width: 100%;
+        height: 650px;
+    }
+    .export-li {
+        font-size: 16px;
+    }
+    .export-ul li::before {
+        font-size: 21px;
+    }
+    .team-card {
+        margin-top: 84px;
+        align-items: center;
+    }
+    .team-card .card-img-top {
+        height: 205px;
+        width: 205px;
+    }
+    .team-card-title {
+        font-size: 20px;
+    }
+    .card-img-right {
+        right: 42px;
+    }
+    .import-export-blog {
+        flex-direction: column;
+    }
+    .become-exporter {
+        width: 100%;
+        height: 440px;
+    }
+    .become-export-items {
+        margin-right: 2px;
+    }
+    .export-btn {
+        width: 278px;
+    }
+    .become-importer {
+        width: 100%;
+        height: 440px;
+    }
+    .become-import-items {
+        margin-right: 2px;
+    }
+    .import-btn {
+        width: 278px;
+    }
+    .footer-main {
         display: flex;
-        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    .accordion {
-        width: 25%;
+    .footer-details {
+        margin-bottom: 20px;
     }
-    .position-drp {
-        width: 90px !important;
+    .ft-txt {
+        margin-bottom: 20px;
     }
-    .number-drp {
-        width: 80px !important;
+}
+
+@media (max-width: 320px) {
+    .navbar-toggler {
+        font-size: 10px;
     }
-    .drp-section {
-        margin-left: 80px;
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 22px !important;
+        height: 21px !important;
     }
-    .images-cards {
-        margin-top: 80px;
-        margin-left: -200px;
+    .navbar-light .navbar-toggler {
+        height: 25px;
+        padding: 0px;
     }
-    .fa-heart {
-        font-size: 14px;
-        padding: 6px;
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 3px;
+        font-size: 4px;
     }
-    .fa-chart-bar {
-        font-size: 14px;
-        padding: 6px;
+    .dropdown-menu {
+        position: absolute !important;
     }
-    .order-btn {
-        padding: 6px 19px;
+    .section-topbar-3 {
+        margin-left: 66px !important;
     }
     .bar-chart-icon {
+        width: 14px;
+        margin-right: 0px !important;
+        height: 9px;
+        padding-left: 2.2px !important;
+        margin-top: 0px;
+        margin-left: 1px;
+    }
+    .navbar-toggler-icon {
+        width: 19px !important;
+        height: 19px !important;
+    }
+    .section-topbar-3 {
+        margin-left: 75px;
+    }
+    .search-input {
+        width: 133px !important;
+        height: 29px !important;
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .search-btn {
+        font-size: 9px;
+        padding: 5px 19px !important;
+        height: 28px;
+        width: 79px;
         margin-left: 0px;
-        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    .muubi-info-heading {
+        font-size: 20px;
+    }
+    .explorer-heading {
+        font-size: 20px;
+    }
+    .industries-div-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .agrifood {
+        width: 100%;
+    }
+    .agrifood-div {
+        width: 84%;
+        height: 141px;
+        margin-right: 10px;
+    }
+    .agrifood-img img {
+        width: 130px;
+    }
+    .agrifood-txt strong {
+        font-size: 20px;
+    }
+    .automotive {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .automotive-div {
+        width: 84%;
+        height: 141px;
+    }
+    .automative-txt strong {
+        font-size: 20px;
+    }
+    .automative-img img {
+        width: 107px;
+    }
+    .textile-div {
+        width: 44%;
+        flex-direction: column;
+    }
+    .textile-img img {
+        width: 132px;
+    }
+    .textile-txt h6 {
+        font-size: 20px;
+    }
+    .chemical-div {
+        width: 44%;
+        height: 170px;
+        flex-direction: column;
+    }
+    .chemical-img img {
+        width: 110px;
+    }
+    .chemical-txt h6 {
+        font-size: 20px;
+        line-height: 53px;
+    }
+    .mechanic-div {
+        width: 44%;
+        height: 170px;
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 30px;
+    }
+    .mechanic-img img {
+        width: 110px;
+    }
+    .mechanic-txt h6 {
+        font-size: 20px;
+    }
+    .musubi-card-heading {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .musubi-cards .container {
+        justify-content: center;
+    }
+    .card {
+        width: 16rem !important;
+        margin-top: 10px;
+        margin-bottom: 55px;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 478px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 20px rgba(38, 36, 131, 0.25);
+        border-radius: 8px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .import-export-data {
+        flex-direction: column;
+    }
+    .import-div {
+        width: 100%;
+        height: 650px;
+    }
+    .import-li {
+        font-size: 16px;
+    }
+    .import-ul li::before {
+        font-size: 21px;
+    }
+    .export-div {
+        width: 100%;
+        height: 650px;
+    }
+    .export-li {
+        font-size: 16px;
+    }
+    .export-ul li::before {
+        font-size: 21px;
+    }
+    .team-card {
+        margin-top: 84px;
+        align-items: center;
+    }
+    .team-card .card-img-top {
+        height: 205px;
+        width: 205px;
+    }
+    .team-card-title {
+        font-size: 20px;
+    }
+    .card-img-right {
+        right: 42px;
+    }
+    .import-export-blog {
+        flex-direction: column;
+    }
+    .become-exporter {
+        width: 100%;
+        height: 440px;
+    }
+    .become-export-items {
+        margin-right: 2px;
+    }
+    .export-btn {
+        width: 278px;
+    }
+    .become-importer {
+        width: 100%;
+        height: 440px;
+    }
+    .become-import-items {
+        margin-right: 2px;
+    }
+    .import-btn {
+        width: 278px;
+    }
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-details {
+        margin-bottom: 20px;
+    }
+    .ft-txt {
+        margin-bottom: 20px;
     }
 }
 
