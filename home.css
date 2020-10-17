@@ -101,7 +101,7 @@
 
 .topbar-4 {
     background-color: #9AB6D3;
-    padding: 20px !important;
+    padding: 13px !important;
 }
 
 .form-inline {
@@ -1465,7 +1465,6 @@ footer {
     }
     .musubi-card-heading {
         font-size: 24px;
-
         margin-bottom: 30px;
     }
 }
@@ -2228,11 +2227,11 @@ footer {
     }
     .navbar-toggler-icon {
         display: inline-block;
-        width: 22px !important;
         height: 21px !important;
     }
     .navbar-light .navbar-toggler {
         height: 25px;
+        width: 28px;
         padding: 0px;
     }
     .navbar-light .navbar-nav .nav-link {
@@ -2251,7 +2250,7 @@ footer {
         margin-right: 0px !important;
         height: 9px;
         padding-left: 2.2px !important;
-        margin-top: 0px;
+        margin-top: 0px !important;
         margin-left: 1px;
     }
     .navbar-toggler-icon {
@@ -2341,7 +2340,7 @@ footer {
         width: 44%;
         height: 170px;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         margin-top: 30px;
     }
     .mechanic-img img {
