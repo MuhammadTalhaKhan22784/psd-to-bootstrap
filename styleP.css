@@ -1171,6 +1171,7 @@ span {
     }
     .hello-span {
         font-size: 12px;
+        margin-left: 10px;
     }
     .log-out-span {
         font-size: 12px;
