@@ -10,6 +10,22 @@
     height: 60px;
 }
 
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 28px !important;
+    height: 24px !important;
+    margin-left: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border: 3px solid;
+    background-color: white;
+    height: 38px;
+    padding: 0 6px;
+    border-color: white;
+}
+
 .topbar-2 {
     display: flex;
     justify-content: space-between;
@@ -140,10 +156,6 @@
     font-size: 2.8rem;
 }
 
-.exporter-para {
-    /* margin-left: 7rem; */
-}
-
 .arrow {
     width: 40px;
     height: 25px;
@@ -187,12 +199,6 @@ section .btn {
     border: 1px solid black !important;
 }
 
-/* .section-2 button {
-    background-color: white;
-    margin: 20px;
-    border: none;
-} */
-
 .dropdown-menu {
     border: 1px solid black;
 }
@@ -216,14 +222,11 @@ section .btn {
     width: 90%;
 }
 
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
     outline: 0;
     box-shadow: none;
 }
-
-/* .section-2{
-    display: flex;
-} */
 
 .section-2 {
     display: flex;
@@ -359,8 +362,8 @@ section .btn {
         margin: 0 18px;
     }
     .nav-item h1 {
-        margin: 0 29px !important;
-        font-size: 15px !important;
+        margin: 0 0px !important;
+        font-size: 13px !important;
     }
     .brand-logo img {
         margin-left: -33px;
@@ -429,8 +432,8 @@ section .btn {
         margin: 0 13px;
     }
     .nav-item h1 {
-        margin: 0 170px !important;
-        font-size: 7px !important;
+        margin: 0 224px !important;
+        font-size: 8px !important;
     }
     .brand-logo img {
         width: 95px;
@@ -461,9 +464,6 @@ section .btn {
         width: 19px;
         height: 12px;
     }
-    .user-profile {
-        /* margin-right: 20px; */
-    }
     .hello-span {
         font-size: 12px;
     }
@@ -488,7 +488,6 @@ section .btn {
     }
     .exporter-para {
         padding-left: 5.3rem;
-        /* flex-direction: column; */
     }
     .exporter-para-2 {
         padding-left: 5.3rem;
@@ -600,13 +599,410 @@ section .btn {
     }
 }
 
+@media (max-width: 425px) {
+    .top {
+        height: 50px;
+    }
+    .navbar-toggler {
+        font-size: 10px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 36px !important;
+        height: 27px !important;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler {
+        height: 30px;
+        padding: 0px;
+        border: none !important;
+    }
+    .topbar-2 {
+        font-size: 9px;
+    }
+    .tobar-2-nav {
+        flex-direction: row;
+    }
+    .user-profile {
+        display: flex;
+    }
+    .nav-item h1 {
+        margin: 0 114px !important;
+        font-size: 8px !important;
+    }
+    .log-out-span {
+        font-size: 12px;
+        margin-left: 153px !important;
+    }
+    .topbar-4 {
+        background-color: #9AB6D3;
+        padding: 13px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 4px;
+    }
+    .brand-logo img {
+        width: 87px;
+        height: 84px;
+        object-fit: contain;
+        margin-left: 10px;
+    }
+    .search-input {
+        width: 156px !important;
+        height: 38px !important;
+        font-size: 10px;
+    }
+    .search-btn {
+        padding: 5px 19px !important;
+        height: 38px;
+        width: 78px;
+        margin-left: 3px;
+    }
+    .profile-img {
+        width: 22px;
+        height: 22px;
+    }
+    .topbar-2 {
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    .bar-chart-icon {
+        margin-right: -2px !important;
+        width: 19px;
+        height: 12px;
+    }
+    .hello-span {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .log-out-span {
+        font-size: 12px;
+        margin-left: 60px;
+    }
+    .exporter-logo {
+        width: 50px;
+        height: 50px;
+    }
+    .exporter-heading {
+        margin-top: -38px;
+        font-size: 1.3rem;
+        padding-left: 50px;
+    }
+    .exporter-para {
+        padding-left: 3.0rem;
+        width: 70%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .exporter-para-2 {
+        padding-left: 3.3rem;
+        font-size: 10px;
+        width: 70%;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .export-2-para {
+        padding-left: 0px;
+        width: 90px;
+    }
+    .exporter-para p {
+        font-size: 10px;
+    }
+    .arrow {
+        width: 20px;
+        height: 16px;
+        margin-left: 1px;
+    }
+    .stars-icons {
+        padding-left: 3.3rem;
+        font-size: 1.2rem !important;
+    }
+    .fa-star {
+        color: #FFB84E;
+        font-size: 0.6rem;
+    }
+    .star-num {
+        font-size: 10px;
+    }
+    .exporter-para-2 button {
+        border-radius: 50px;
+        height: 43px;
+        width: 112px;
+        font-size: 11px;
+    }
+    .section-2 {
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 100%;
+    }
+    .img-box-2 {
+        margin-left: 20px;
+    }
+    .img-box-1 span {
+        font-size: 14px;
+    }
+    .img-box-2 span {
+        font-size: 14px;
+        justify-content: center;
+    }
+    .images-section {
+        width: 100%;
+        margin-left: -22px;
+        margin-top: -8px;
+        display: flex;
+        justify-content: start;
+    }
+    .accordion {
+        width: 25%;
+    }
+    .position-drp {
+        width: 90px !important;
+    }
+    .number-drp {
+        width: 80px !important;
+    }
+    .drp-section {
+        margin-left: 80px;
+    }
+    .images-cards {
+        margin-top: 80px;
+        margin-left: -200px;
+    }
+    .card {
+        width: 12rem !important;
+    }
+    .card-body span {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-end-txt {
+        font-size: 18px;
+    }
+    .fa-heart {
+        font-size: 14px;
+        padding: 6px;
+    }
+    .fa-chart-bar {
+        font-size: 14px;
+        padding: 6px;
+    }
+    .order-btn {
+        padding: 6px 19px;
+    }
+}
+
+@media (max-width: 375px) {
+    .top {
+        height: 50px;
+    }
+    .navbar-toggler {
+        font-size: 10px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 36px !important;
+        height: 27px !important;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler {
+        height: 30px;
+        padding: 0px;
+        border: none !important;
+    }
+    .topbar-2 {
+        font-size: 9px;
+    }
+    .tobar-2-nav {
+        flex-direction: row;
+    }
+    .user-profile {
+        display: flex;
+    }
+    .nav-item h1 {
+        margin: 0 96px !important;
+        font-size: 8px !important;
+    }
+    .log-out-span {
+        font-size: 12px;
+        margin-left: 153px !important;
+    }
+    .topbar-4 {
+        background-color: #9AB6D3;
+        padding: 13px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 4px;
+    }
+    .brand-logo img {
+        width: 87px;
+        height: 84px;
+        object-fit: contain;
+        margin-left: 10px;
+    }
+    .search-input {
+        width: 156px !important;
+        height: 38px !important;
+        font-size: 10px;
+    }
+    .search-btn {
+        padding: 5px 19px !important;
+        height: 38px;
+        width: 78px;
+        margin-left: 3px;
+    }
+    .profile-img {
+        width: 22px;
+        height: 22px;
+    }
+    .topbar-2 {
+        flex-wrap: nowrap;
+        font-size: 10px;
+    }
+    .bar-chart-icon {
+        margin-right: -2px !important;
+        width: 19px;
+        height: 12px;
+    }
+    .hello-span {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .log-out-span {
+        font-size: 12px;
+        margin-left: 60px;
+    }
+    .exporter-para {
+        padding-left: 3.3rem;
+    }
+    .stars-icons {
+        padding-left: 3.3rem;
+        font-size: 1.2rem !important;
+    }
+    .exporter-para-2 {
+        padding-left: 3.3rem;
+    }
+    .exporter-logo {
+        width: 50px;
+        height: 50px;
+    }
+    .exporter-heading {
+        margin-top: -38px;
+        font-size: 1.3rem;
+        padding-left: 50px;
+    }
+    .exporter-para {
+        padding-left: 3.0rem;
+        width: 70%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .exporter-para-2 {
+        padding-left: 3.3rem;
+        font-size: 10px;
+        width: 70%;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .export-2-para {
+        padding-left: 0px;
+        width: 90px;
+    }
+    .exporter-para p {
+        font-size: 10px;
+    }
+    .arrow {
+        width: 20px;
+        height: 16px;
+        margin-left: 1px;
+    }
+    .stars-icons {
+        padding-left: 3.3rem;
+        font-size: 1.2rem !important;
+    }
+    .fa-star {
+        color: #FFB84E;
+        font-size: 0.6rem;
+    }
+    .star-num {
+        font-size: 10px;
+    }
+    .exporter-para-2 button {
+        border-radius: 50px;
+        height: 43px;
+        width: 112px;
+        font-size: 11px;
+    }
+    .section-2 {
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 100%;
+    }
+    .img-box-2 {
+        margin-left: 20px;
+    }
+    .img-box-1 span {
+        font-size: 14px;
+    }
+    .img-box-2 span {
+        font-size: 14px;
+        justify-content: center;
+    }
+    .images-section {
+        width: 100%;
+        margin-left: -22px;
+        margin-top: -8px;
+        display: flex;
+        justify-content: start;
+    }
+    .accordion {
+        width: 25%;
+    }
+    .position-drp {
+        width: 90px !important;
+    }
+    .number-drp {
+        width: 80px !important;
+    }
+    .drp-section {
+        margin-left: 80px;
+    }
+    .images-cards {
+        margin-top: 80px;
+        margin-left: -200px;
+    }
+    .card {
+        width: 12rem !important;
+    }
+    .card-body span {
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-end-txt {
+        font-size: 18px;
+    }
+    .fa-heart {
+        font-size: 14px;
+        padding: 6px;
+    }
+    .fa-chart-bar {
+        font-size: 14px;
+        padding: 6px;
+    }
+    .order-btn {
+        padding: 6px 19px;
+    }
+}
+
 @media (max-width: 360px) {
     .top {
         height: 50px;
     }
-    /* .navbar-toggler {
-        font-size: 14px;
-    } */
     .navbar-light .navbar-nav .nav-link {
         color: rgba(0, 0, 0, .5);
         margin: 0 2px;
@@ -671,7 +1067,6 @@ section .btn {
         width: 70%;
         text-align: justify;
         text-justify: inter-word;
-        /* flex-direction: column; */
     }
     .exporter-para-2 {
         padding-left: 3.3rem;
@@ -874,7 +1269,6 @@ section .btn {
         width: 70%;
         text-align: justify;
         text-justify: inter-word;
-        /* flex-direction: column; */
     }
     .exporter-para-2 {
         padding-left: 3.3rem;
@@ -978,43 +1372,3 @@ section .btn {
         margin-right: 15px;
     }
 }
-
-/* 
-@media (max-width: 2560px) {
-    .exporter-logo {
-        width: 200px;
-        height: 200px;
-    }
-    .exporter-heading {
-        color: #415364;
-        font-size: 3.8rem;
-        padding-left: 490px;
-    }
-    .exporter-para{
-        font-size:22px;
-    }
-    .exporter-para-2 p{
-        font-size:22px;
-    }
-    .exporter-para-2 button{
-        height: 72px;
-        font-size: 22px;
-    }
-    .img-box-1 span{
-        font-size: 22px;
-        padding-right: 8px; 
-    }
-    .img-box-2 span{
-        font-size: 22px;
-        padding-right: 8px; 
-    }
-    .topbar-4-pd h1{
-        font-size:22px ;
-    }
-    .exporter-para img{
-        margin-top: 8px;
-    }
-    .export-2-para{
-        padding-left: 50px;
-    }
-} */
